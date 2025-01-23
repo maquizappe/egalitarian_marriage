@@ -1,0 +1,341 @@
+
+
+@media (max-width: 500px) {
+  .component-matrimonio{
+    transform: scale(1);
+    
+  }
+
+  .matrimonios-caption-2{  
+    font-size:8px; 
+    width: 150px;
+    text-align: left;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+      line-height: 12px;
+    opacity:1;
+  }
+  
+  .fake-areachart img{
+    display: block;
+    height: 270px;
+
+  }
+
+  .fake-areachart{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+
+   
+  }
+
+
+  .content {
+    overflow-y: scroll; /* Add a vertical scrollbar when content overflows */
+    max-height: 100vh; /* Limit the maximum height to the viewport height */
+    cursor: none;
+  }
+  
+  
+  .area-chart-wrapper{
+    position: relative;
+    height: 400px;
+  
+  
+  }
+  
+  
+  .fixed-content {  
+   
+    top: 20px;
+    bottom: 30px;  
+  
+  }
+  
+  .area-title{
+    display: flex;
+    justify-content: flex-start;
+ margin-left: 20px;
+    margin-top: -100px;
+    font-size: 12px; 
+   
+  }
+  
+  .area-subtitle{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 8px; 
+    margin-top:2px;
+    margin-bottom: -30px;
+    margin-left: 20px;
+    
+  
+  }
+  
+  .area-caption{  
+    display:none}
+
+  .area-caption-2{  
+    font-size:8px; 
+    width: 150px;
+    text-align: left;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+      line-height: 12px;
+    opacity:1;
+  }
+
+
+  .areachart{
+    margin-left: 10px;
+    display: none;
+    
+  }
+  
+  
+  
+  .fixed-comment{
+    position: sticky;
+    bottom: 20px; /* Adjust the desired position from the bottom */
+    width: 100%;
+    text-align: center;
+    background-color: white; /* Set a background color to ensure text is visible */
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .matrimonios-chart-wrapper{
+    position: relative;
+  
+    margin-top: 0px;
+  
+  }
+  
+  
+  .matrimonios-content {  
+   
+    bottom: 0px; 
+ 
+   
+  }
+  
+.matrimonio-chart{
+  display:none;
+}
+
+  .porque-matrimonio{
+    display: flex;
+    justify-content: flex-start; 
+  margin-left: 30px; 
+  margin-top:120px;
+
+  font-size: 12px; 
+  
+  }
+  
+  .porque-matrimonio-subtitle{
+    display: flex;
+    justify-content: flex-start; 
+    font-size: 8px; 
+    margin-top:4px;
+    margin-bottom: -220px;
+    margin-left: 30px;
+  }
+  
+  .matrimonios-title{
+    display: flex;
+    justify-content: flex-end; 
+  margin-right: 50px;  
+  font-size: 12px;
+  margin-top: 100px;
+   
+  }
+  
+  .matrimonios-subtitle{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 8px; 
+    margin-top:2px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+  
+  }
+  
+  
+  
+  .matrimonios-caption{
+    position: sticky;
+    top: 1150px;
+    bottom: 0px; 
+    font-size: 12px; 
+    width: 210px;
+    text-align: right;
+    margin-left: -230px;
+    line-height: 20px;
+    opacity:0;
+   
+  }
+  
+  
+  
+}
+
+
+@media (min-width: 501px) {
+
+  .matrimonio-chart{
+    display:block;
+  }
+  .matrimonios-caption-2{
+    display: none;
+  }
+  .area-caption-2{ 
+    display:none;
+  }
+
+.fake-areachart{
+  display: none
+}
+.component-matrimonio{
+  transform: scale(1);
+}
+.content {
+  overflow-y: scroll; /* Add a vertical scrollbar when content overflows */
+  max-height: 100vh; /* Limit the maximum height to the viewport height */
+  cursor: none;
+}
+
+
+.area-chart-wrapper{
+  position: relative;
+  height: 1000px;
+
+
+}
+
+
+.fixed-content {  
+  position: sticky;
+  top: 20px;
+  bottom: 30px;  
+
+}
+
+.area-title{
+  display: flex;
+  justify-content: flex-end; 
+  margin-right: 92px;
+  margin-top: 0px;
+}
+
+.area-subtitle{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px; 
+  margin-top:2px;
+  margin-bottom: 30px;
+  margin-right: 92px;
+
+}
+
+.area-caption{
+  position: sticky;
+  top: 1150px;
+  bottom: 0px; 
+  font-size: 12px; 
+  width: 210px;
+  text-align: right;
+  margin-left: 230px;
+  line-height: 20px;
+opacity: 0; 
+
+display:block;
+}
+.areachart{
+  margin-left: 10px;
+  display: block;
+  
+}
+
+
+
+.fixed-comment{
+  position: sticky;
+  bottom: 20px; /* Adjust the desired position from the bottom */
+  width: 100%;
+  text-align: center;
+  background-color: white; /* Set a background color to ensure text is visible */
+  padding: 10px;
+  z-index: 1;
+}
+
+.matrimonios-chart-wrapper{
+  position: relative;
+  width: 1400px;
+  height: 900px;
+  margin-top: 100px;
+
+}
+
+
+.matrimonios-content {  
+  position: sticky;
+  top: 80px;
+  bottom: 0px; 
+  margin-left: 500px;
+ 
+}
+
+.porque-matrimonio{
+  display: flex;
+  justify-content: flex-start; 
+margin-left: 30px; 
+margin-top:120px;
+font-size: 18px; 
+}
+
+.porque-matrimonio-subtitle{
+  display: flex;
+  justify-content: flex-start; 
+  font-size: 12px; 
+  margin-top:4px;
+  margin-bottom: -160px;
+  margin-left: 30px;
+}
+
+.matrimonios-title{
+  display: flex;
+  justify-content: flex-end; 
+margin-right: 50px;  
+font-size: 16px;
+margin-top: 0px;
+}
+
+.matrimonios-subtitle{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px; 
+  margin-top:2px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+
+}
+
+
+
+.matrimonios-caption{
+  position: sticky;
+  top: 1150px;
+  bottom: 0px; 
+  font-size: 12px; 
+  width: 210px;
+  text-align: right;
+  margin-left: -230px;
+  line-height: 20px;
+  opacity:0;
+ 
+}
+}
